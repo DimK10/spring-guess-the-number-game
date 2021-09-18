@@ -1,6 +1,6 @@
 package academy.learnprogramming.console;
 
-import academy.learnprogramming.config.AppConfig;
+import academy.learnprogramming.config.GameConfig;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.ConfigurableApplicationContext;
@@ -17,7 +17,7 @@ public class Main {
 
         // create the context (container)
 //        ConfigurableApplicationContext context = new ClassPathXmlApplicationContext(CONFIG_LOCATION);
-        ConfigurableApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
+        ConfigurableApplicationContext context = new AnnotationConfigApplicationContext(GameConfig.class);
 
 //        // get number generator bean from context (container)
 //        NumberGenerator numberGenerator = context.getBean(NumberGenerator.class);
