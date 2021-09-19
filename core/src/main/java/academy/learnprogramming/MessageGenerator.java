@@ -2,7 +2,7 @@ package academy.learnprogramming;
 
 public interface MessageGenerator {
 
-    String gatMainMessage();
+    String getMainMessage();
 
     String getResultMessage();
 }
